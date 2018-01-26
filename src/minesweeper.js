@@ -5,9 +5,11 @@ const printBoard = (board) => {
   console.log(board[2].join(' | '));
 };
 
-let board = [[' ', ' ', ' '],
-[' ', ' ', ' '],
-[' ', ' ', ' ']];
+let board = [
+  [' ', ' ', ' '],
+  [' ', ' ', ' '],
+  [' ', ' ', ' ']
+];
 
 printBoard(board);
 board[0][1] = '1';
